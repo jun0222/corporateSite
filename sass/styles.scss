@@ -1,0 +1,171 @@
+/* リセットcss */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* リセットcss */
+
+.header, .main, .footer {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header__menu {
+    nav {
+        ul {
+            display: flex;
+            height: 70px;
+            align-items: center;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+    }
+    li {
+        width: 100%;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        border-right: 1px solid white;
+    }
+}
+
+.header__top__contact p:last-child {
+    border: 1px solid black;
+}
+
+.main {
+    margin-bottom: 36px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__sidebar {
+    width: 260px;
+}
+
+.main__sidebar__sidebar1, .main__sidebar__sidebar2 {
+    margin-bottom: 24px;
+    li {
+        list-style: image;
+        border-bottom: 1px black solid;
+        border-right: 1px black solid;
+        border-left: 1px black solid;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+.main__sidebar__sidebar1__title, .main__sidebar__sidebar2__title {
+    background-color: skyblue;
+    padding: 12px;
+    border-radius: 10px 10px 0 0;
+    border: 1px black solid;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__subjects {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__subjects__image {
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+.main__subjects__new-arrivals {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.main__subjects__new-arrivals--title {
+    padding: 12px;
+    border-bottom: 3px solid skyblue;
+}
+
+.main__subjects__new-arrivals--contents li p{
+    padding: 12px;
+    border-bottom: 1px dashed gray;
+}
+
+.footer__menu {
+    ul {
+        display: flex;
+    }
+    li{
+        margin-right: 12px;
+    }
+}
+
+.footer__contact {
+    text-align: right;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid skyblue;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 6px;
+}
