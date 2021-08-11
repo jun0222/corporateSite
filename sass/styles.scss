@@ -423,6 +423,55 @@ table {
     }
 }
 
+// company.html
+@media screen and (min-width:1024px) {
+    .header, .main__subjects--company, .footer {
+        width: 920px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main__subjects--company {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .main__subjects--company {
+    }
+}
+
+.main__subjects--company {
+    padding: 12px 24px;
+    flex: 1;
+    h1 {
+        font-size: 36px;
+        border-bottom: 3px solid skyblue;
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 24px;
+        border-bottom: 3px solid skyblue;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+    table {
+        border: 1px solid black;
+        td{
+            border: 1px solid black;
+            padding: 12px;
+        }
+        tr > td:first-child{
+            background-color: #ccc;
+        }
+    }
+    section {
+        margin-bottom: 36px;
+    }
+}
+
+
 // 修飾用パーツ
 @media screen and (min-width:1024px) {
     .br-sp {
