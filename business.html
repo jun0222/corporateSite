@@ -1,0 +1,148 @@
+<!-- フレックスボックス、BEM、Sass、レスポンシブ -->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top__top-page">
+                <a href="">
+                    アシスト株式会社
+                </a>
+            </div>
+            <div class="header__top__contact">
+                <p>地域を元気にする企業「アシスト株式会社」です。</p>
+                <p>XX-XXXX-XXXX</p>
+                <p>
+                    <span>
+                        営業時間 平日 09:00～17:30 
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="header__menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="business.html">事業一覧</a></li>
+                    <li><a href="recruitment.html">採用情報</a></li>
+                    <li><a href="company.html">会社案内</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="main__business">
+        <div class="main__sidebar">
+            <div class="main__sidebar__sidebar1">
+                <p class="main__sidebar__sidebar1__title">弊社の事業</p>
+                <nav>
+                    <ul>
+                        <li><a href="#construction">建築業</a></li>
+                        <li><a href="#agriculture-forestry-and-fisheries">農林水産業</a></li>
+                        <li><a href="#transportation">運輸業</a></li>
+                        <li><a href="#sheet-metal">板金事業</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main__sidebar__sidebar2">
+                <p class="main__sidebar__sidebar2__title">弊社の成果</p>
+                <nav>
+                    <ul>
+                        <li><a href="#mayor-statue">XX市長像</a></li>
+                        <li><a href="#bridge">XX大橋</a></li>
+                        <li><a href="#iso">ISO9001（板金事業）</a></li>
+                        <li><a href="#bird-damage">XX町 鳥害対策</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main__subjects--business">
+            <section class="main__subjects--business__progress">
+                <section class="main__subjects--business__progress--top">
+                    <h1>弊社の事業</h1>
+                    <p>「地域を元気にする」をキーワードに、</p>
+                    <p>地域に密着した、地域と共に発展する事業を</p>
+                    <p>多岐にわたり展開しています。</p>
+                </section>
+
+                <section class="main__subjects--business__progress--construction" id="construction">
+                    <h2>建築業</h2>
+                    <p>地域の皆さまの暮らしをデザインする、</p>
+                    <p>オーダーメイド注文住宅を中心に、</p>
+                    <p>様々な業務を行っております。</p>
+                </section>
+                
+                <section class="main__subjects--business__progress--agriculture-forestry-and-fisheries" id="agriculture-forestry-and-fisheries">  
+                    <h2>農林水産業</h2>
+                    <p>地域の発展、自然との共生、</p>
+                    <p>それぞれをテーマに事業を展開しております。</p>
+                </section>
+                
+                <section class="main__subjects--business__progress--transportation" id="transportation">
+                    <h2>運輸業</h2>
+                    <p>私たちの暮らしに無くてはならない物流。</p>
+                    <p>アシストは物流を通して皆様の生活を支えます。</p>
+                </section>
+                
+                <section class="main__subjects--business__progress--sheet-metal" id="sheet-metal">
+                    <h2>板金事業</h2>
+                    <p>XX市の板金生産量は国内トップクラス。</p>
+                    <p>実はその内、半分はアシストが担っています。</p>
+                </section>
+            </section>
+            
+            <section class="main__subjects--business__past">
+                <section class="main__subjects--business__past--top">
+                    <h1>弊社の成果</h1>
+                    <p>弊社が過去にあげた実績の一部です。</p>
+                </section>
+                
+                <section class="main__subjects--business__past--mayor-statue" id="mayor-statue">
+                    <h2>XX市長像</h2>
+                    <p>市役所前、XX市長像</p>
+                </section>
+                
+                <section class="main__subjects--business__past--bridge" id="bridge">
+                    <h2>XX大橋</h2>
+                    <p>アシストが作ったXX大橋は、</p>
+                    <p>今年で竣工20周年です。</p>
+                </section>
+                
+                <section class="main__subjects--business__past--iso" id="iso">
+                    <h2>ISO9001（板金事業）</h2>
+                    <p>弊社の板金事業はISO9001に認定されています。</p>
+                </section>
+                
+                <section class="main__subjects--business__past--bird-damage" id="bird-damage">  
+                    <h2>XX町 鳥害対策</h2>
+                    <p>農作物への鳥害対策を行いました</p>
+                </section>
+                
+            </section>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="business.html">事業一覧</a></li>
+                    <li><a href="recruitment.html">採用情報</a></li>
+                    <li><a href="company.html">会社案内</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__contact">アシスト株式会社<br class="br-sp" /> XX県XX区XXOO町11-1<br class="br-sp" /> TEL:XX-XXXX-XXXX</div>
+        <div class="footer__copyright"><small>Copyright 2021 Jun Hatanaka</small></div>
+    </footer>
+</body>
+</html>

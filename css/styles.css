@@ -246,6 +246,37 @@ table {
   font-size: 6px; }
 
 @media screen and (min-width: 1024px) {
+  .header, .main__business, .footer {
+    width: 920px;
+    margin: 0 auto; } }
+@media screen and (min-width: 1024px) {
+  .main__business {
+    display: flex;
+    margin-bottom: 36px; } }
+@media screen and (max-width: 1024px) {
+  .main__business {
+    display: flex;
+    flex-flow: column-reverse; } }
+.main__subjects--business {
+  padding: 12px 24px;
+  flex: 1; }
+  .main__subjects--business h1 {
+    font-size: 36px;
+    border-bottom: 3px solid skyblue;
+    margin-bottom: 12px; }
+  .main__subjects--business h2 {
+    font-size: 24px;
+    border-bottom: 3px solid skyblue;
+    margin-bottom: 12px;
+    display: inline-block; }
+  .main__subjects--business__progress {
+    margin-bottom: 72px; }
+    .main__subjects--business__progress--top p:last-child, .main__subjects--business__progress--construction p:last-child, .main__subjects--business__progress--agriculture-forestry-and-fisheries p:last-child, .main__subjects--business__progress--transportation p:last-child, .main__subjects--business__progress--sheet-metal p:last-child {
+      margin-bottom: 36px; }
+  .main__subjects--business__past--top p:last-child, .main__subjects--business__past--mayor-statue p:last-child, .main__subjects--business__past--bridge p:last-child, .main__subjects--business__past--iso p:last-child, .main__subjects--business__past--bird-damage p:last-child {
+    margin-bottom: 36px; }
+
+@media screen and (min-width: 1024px) {
   .br-sp {
     display: none; } }
 
